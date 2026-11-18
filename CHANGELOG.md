@@ -2,6 +2,14 @@
 
 ## not released
 
+## v1.2.3-i18n.1 (2026-11-18, unofficial test build)
+
+- Change: UI translation switched from `i18n` JSON files to gettext `.po` files
+- Add: Japanese, Chinese (Simplified / Traditional), Korean, French, Spanish, Italian, Portuguese (Brazil), Russian, Dutch and Polish translations
+- Fix: Croatian translation was not loaded
+- Add: Translation of section name and log level options
+- Change: Plugin ID `io.github.jackgruber.hotfolder.i18n`, name `Hotfolder i18n`
+
 ## v1.2.3 (2025-12-13)
 
 - Add: Croatian translation (hr_HR) #43
