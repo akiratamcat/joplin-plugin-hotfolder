@@ -1,0 +1,104 @@
+# Chinese (Traditional) translation for Joplin Plugin Hotfolder i18n
+msgid ""
+msgstr ""
+"Project-Id-Version: joplin-plugin-hotfolder-i18n\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Hotfolder i18n"
+msgstr "Hotfolder i18n"
+
+msgid "Hotfolder Path"
+msgstr "熱資料夾路徑"
+
+msgid "Folder from which the files should be imported"
+msgstr "要匯入檔案的來源資料夾"
+
+msgid "Ignore Files"
+msgstr "忽略的檔案"
+
+msgid "Comma separated list of files which will be ignored"
+msgstr "要忽略的檔案清單（以逗號分隔）"
+
+msgid "Add as text"
+msgstr "以文字新增"
+
+msgid "Comma separated list of file extensions, which will be imported as text"
+msgstr "以文字匯入的副檔名清單（以逗號分隔）"
+
+msgid "Add text notes as Todo"
+msgstr "將文字筆記新增為待辦事項"
+
+msgid "Text only notes will be imported as Todo type notes, all other file types will be imported as attachments in regular notes"
+msgstr "純文字筆記將以待辦事項匯入，其他所有檔案類型將以附件匯入至一般筆記中"
+
+msgid "Notebook"
+msgstr "筆記本"
+
+msgid "If no notebook is specified, the import is made to the current notebook. Subnotebooks can be defined via Project\\Scans"
+msgstr "若未指定筆記本，則匯入至目前的筆記本。可使用 Project\\Scans 的形式指定子筆記本"
+
+msgid "Tags"
+msgstr "標籤"
+
+msgid "Comma separated list of tags to be added to the note"
+msgstr "要新增至筆記的標籤清單（以逗號分隔）"
+
+msgid "File ready"
+msgstr "檔案就緒"
+
+msgid "Every how many seconds should be checked whether the file in the hotfolder is ready (Checks the file size and file lock additionally)"
+msgstr "每隔幾秒檢查一次熱資料夾中的檔案是否就緒（另外也會檢查檔案大小與檔案鎖定）"
+
+msgid "Polling"
+msgstr "輪詢"
+
+msgid "May be necessary for Hotfolders in the network. Leads to a slightly higher system load"
+msgstr "網路上的熱資料夾可能需要啟用。會稍微增加系統負載"
+
+msgid "Polling intervall"
+msgstr "輪詢間隔"
+
+msgid "Interval in milliseconds for querying the hotfolder"
+msgstr "查詢熱資料夾的間隔（毫秒）"
+
+msgid "Depth"
+msgstr "深度"
+
+msgid "How many subdirectories will be checked for file import"
+msgstr "匯入檔案時檢查的子目錄層數"
+
+msgid "Number of Hotfolders"
+msgstr "熱資料夾數量"
+
+msgid "Additional Hotfolder Sections appear on the left (Please restart Joplin after a change)"
+msgstr "額外的熱資料夾設定區段會顯示在左側（變更後請重新啟動 Joplin）"
+
+msgid "Loglevel"
+msgstr "記錄層級"
+
+#, c-format
+msgid "Log level for the log file %s"
+msgstr "記錄檔 %s 的記錄層級"
+
+msgid "Off"
+msgstr "關閉"
+
+msgid "Verbose"
+msgstr "詳細"
+
+msgid "Info"
+msgstr "資訊"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "Error"
+msgstr "錯誤"
+
+#, c-format
+msgid "Notebook `%s` for import destination of Hotfolder %s doesn't exist use actual notebook for imports"
+msgstr "匯入目標筆記本 `%s`（熱資料夾 %s）不存在，將使用目前的筆記本進行匯入"

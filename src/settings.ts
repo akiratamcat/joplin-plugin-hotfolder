@@ -1,7 +1,7 @@
 import joplin from "api";
 import { SettingItem, SettingItemType, SettingItemSubType } from "api/types";
 import { helper } from "./helper";
-import { i18n } from "./hotfolder";
+import { _ } from "./i18n";
 import { hotfolderSettings } from "./type";
 
 export namespace settings {
@@ -15,7 +15,7 @@ export namespace settings {
         "hotfolderSection" + (hotfolderNr == 0 ? "" : hotfolderNr),
         {
           label:
-            "Hotfolder" +
+            _("Hotfolder i18n") +
             (hotfolderNr == 0 ? "" : " " + (hotfolderNr + 1).toString()),
           iconName: "fas fa-eye",
         }
@@ -27,8 +27,8 @@ export namespace settings {
           type: SettingItemType.String,
           section: "hotfolderSection" + (hotfolderNr == 0 ? "" : hotfolderNr),
           public: true,
-          label: i18n.__("settings.hotfolderPath.label"),
-          description: i18n.__("settings.hotfolderPath.description"),
+          label: _("Hotfolder Path"),
+          description: _("Folder from which the files should be imported"),
         };
       // Add DirectoryPath selector for newer Joplin versions
       if (
@@ -45,8 +45,8 @@ export namespace settings {
         type: SettingItemType.String,
         section: "hotfolderSection" + (hotfolderNr == 0 ? "" : hotfolderNr),
         public: true,
-        label: i18n.__("settings.ignoreFiles.label"),
-        description: i18n.__("settings.ignoreFiles.description"),
+        label: _("Ignore Files"),
+        description: _("Comma separated list of files which will be ignored"),
       };
 
       settingsObject[
@@ -56,8 +56,10 @@ export namespace settings {
         type: SettingItemType.String,
         section: "hotfolderSection" + (hotfolderNr == 0 ? "" : hotfolderNr),
         public: true,
-        label: i18n.__("settings.extensionsAddAsText.label"),
-        description: i18n.__("settings.extensionsAddAsText.description"),
+        label: _("Add as text"),
+        description: _(
+          "Comma separated list of file extensions, which will be imported as text"
+        ),
       };
 
       settingsObject[
@@ -67,8 +69,10 @@ export namespace settings {
         type: SettingItemType.Bool,
         section: "hotfolderSection" + (hotfolderNr == 0 ? "" : hotfolderNr),
         public: true,
-        label: i18n.__("settings.extensionsAddTextAsTodo.label"),
-        description: i18n.__("settings.extensionsAddTextAsTodo.description"),
+        label: _("Add text notes as Todo"),
+        description: _(
+          "Text only notes will be imported as Todo type notes, all other file types will be imported as attachments in regular notes"
+        ),
       };
 
       settingsObject["importNotebook" + (hotfolderNr == 0 ? "" : hotfolderNr)] =
@@ -77,8 +81,10 @@ export namespace settings {
           type: SettingItemType.String,
           section: "hotfolderSection" + (hotfolderNr == 0 ? "" : hotfolderNr),
           public: true,
-          label: i18n.__("settings.importNotebook.label"),
-          description: i18n.__("settings.importNotebook.description"),
+          label: _("Notebook"),
+          description: _(
+            "If no notebook is specified, the import is made to the current notebook. Subnotebooks can be defined via Project\\Scans"
+          ),
         };
 
       settingsObject["importTags" + (hotfolderNr == 0 ? "" : hotfolderNr)] = {
@@ -86,8 +92,8 @@ export namespace settings {
         type: SettingItemType.String,
         section: "hotfolderSection" + (hotfolderNr == 0 ? "" : hotfolderNr),
         public: true,
-        label: i18n.__("settings.importTags.label"),
-        description: i18n.__("settings.importTags.description"),
+        label: _("Tags"),
+        description: _("Comma separated list of tags to be added to the note"),
       };
 
       settingsObject[
@@ -100,8 +106,10 @@ export namespace settings {
         section: "hotfolderSection" + (hotfolderNr == 0 ? "" : hotfolderNr),
         public: true,
         advanced: true,
-        label: i18n.__("settings.intervallFileFinished.label"),
-        description: i18n.__("settings.intervallFileFinished.description"),
+        label: _("File ready"),
+        description: _(
+          "Every how many seconds should be checked whether the file in the hotfolder is ready (Checks the file size and file lock additionally)"
+        ),
       };
 
       settingsObject["usePolling" + (hotfolderNr == 0 ? "" : hotfolderNr)] = {
@@ -110,8 +118,10 @@ export namespace settings {
         section: "hotfolderSection" + (hotfolderNr == 0 ? "" : hotfolderNr),
         public: true,
         advanced: true,
-        label: i18n.__("settings.usePolling.label"),
-        description: i18n.__("settings.usePolling.description"),
+        label: _("Polling"),
+        description: _(
+          "May be necessary for Hotfolders in the network. Leads to a slightly higher system load"
+        ),
       };
 
       settingsObject[
@@ -123,8 +133,8 @@ export namespace settings {
         section: "hotfolderSection" + (hotfolderNr == 0 ? "" : hotfolderNr),
         public: true,
         advanced: true,
-        label: i18n.__("settings.pollingIntervall.label"),
-        description: i18n.__("settings.pollingIntervall.description"),
+        label: _("Polling intervall"),
+        description: _("Interval in milliseconds for querying the hotfolder"),
       };
 
       settingsObject["depth" + (hotfolderNr == 0 ? "" : hotfolderNr)] = {
@@ -135,8 +145,10 @@ export namespace settings {
         section: "hotfolderSection" + (hotfolderNr == 0 ? "" : hotfolderNr),
         public: true,
         advanced: true,
-        label: i18n.__("settings.depth.label"),
-        description: i18n.__("settings.depth.description"),
+        label: _("Depth"),
+        description: _(
+          "How many subdirectories will be checked for file import"
+        ),
       };
 
       if (hotfolderNr === 0) {
@@ -148,8 +160,10 @@ export namespace settings {
             type: SettingItemType.Int,
             section: "hotfolderSection",
             public: true,
-            label: i18n.__("settings.hotfolderAnz.label"),
-            description: i18n.__("settings.hotfolderAnz.description"),
+            label: _("Number of Hotfolders"),
+            description: _(
+              "Additional Hotfolder Sections appear on the left (Please restart Joplin after a change)"
+            ),
           },
           fileLogLevel: {
             value: "error",
@@ -158,14 +172,14 @@ export namespace settings {
             isEnum: true,
             public: true,
             advanced: true,
-            label: i18n.__("settings.fileLogLevel.label"),
-            description: i18n.__("settings.fileLogLevel.description", logFile),
+            label: _("Loglevel"),
+            description: _("Log level for the log file %s", logFile),
             options: {
-              false: "Off",
-              verbose: "Verbose",
-              info: "Info",
-              warn: "Warning",
-              error: "Error",
+              false: _("Off"),
+              verbose: _("Verbose"),
+              info: _("Info"),
+              warn: _("Warning"),
+              error: _("Error"),
             },
           },
         });

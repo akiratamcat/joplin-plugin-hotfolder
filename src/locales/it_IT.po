@@ -1,0 +1,104 @@
+# Italian translation for Joplin Plugin Hotfolder i18n
+msgid ""
+msgstr ""
+"Project-Id-Version: joplin-plugin-hotfolder-i18n\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Hotfolder i18n"
+msgstr "Hotfolder i18n"
+
+msgid "Hotfolder Path"
+msgstr "Percorso della cartella monitorata"
+
+msgid "Folder from which the files should be imported"
+msgstr "Cartella da cui importare i file"
+
+msgid "Ignore Files"
+msgstr "Ignora file"
+
+msgid "Comma separated list of files which will be ignored"
+msgstr "Elenco dei file da ignorare, separati da virgole"
+
+msgid "Add as text"
+msgstr "Aggiungi come testo"
+
+msgid "Comma separated list of file extensions, which will be imported as text"
+msgstr "Elenco delle estensioni di file da importare come testo, separate da virgole"
+
+msgid "Add text notes as Todo"
+msgstr "Aggiungi note di testo come attività"
+
+msgid "Text only notes will be imported as Todo type notes, all other file types will be imported as attachments in regular notes"
+msgstr "Le note di solo testo verranno importate come attività; tutti gli altri tipi di file verranno importati come allegati in note normali"
+
+msgid "Notebook"
+msgstr "Taccuino"
+
+msgid "If no notebook is specified, the import is made to the current notebook. Subnotebooks can be defined via Project\\Scans"
+msgstr "Se non viene specificato alcun taccuino, l'importazione avviene nel taccuino corrente. I sotto-taccuini possono essere definiti nella forma Project\\Scans"
+
+msgid "Tags"
+msgstr "Etichette"
+
+msgid "Comma separated list of tags to be added to the note"
+msgstr "Elenco delle etichette da aggiungere alla nota, separate da virgole"
+
+msgid "File ready"
+msgstr "File pronto"
+
+msgid "Every how many seconds should be checked whether the file in the hotfolder is ready (Checks the file size and file lock additionally)"
+msgstr "Ogni quanti secondi verificare se il file nella cartella monitorata è pronto (controlla anche la dimensione e il blocco del file)"
+
+msgid "Polling"
+msgstr "Polling"
+
+msgid "May be necessary for Hotfolders in the network. Leads to a slightly higher system load"
+msgstr "Può essere necessario per cartelle monitorate in rete. Comporta un carico di sistema leggermente maggiore"
+
+msgid "Polling intervall"
+msgstr "Intervallo di polling"
+
+msgid "Interval in milliseconds for querying the hotfolder"
+msgstr "Intervallo in millisecondi per interrogare la cartella monitorata"
+
+msgid "Depth"
+msgstr "Profondità"
+
+msgid "How many subdirectories will be checked for file import"
+msgstr "Quanti livelli di sottocartelle verranno controllati per l'importazione dei file"
+
+msgid "Number of Hotfolders"
+msgstr "Numero di cartelle monitorate"
+
+msgid "Additional Hotfolder Sections appear on the left (Please restart Joplin after a change)"
+msgstr "Le sezioni aggiuntive delle cartelle monitorate appaiono a sinistra (riavviare Joplin dopo una modifica)"
+
+msgid "Loglevel"
+msgstr "Livello di log"
+
+#, c-format
+msgid "Log level for the log file %s"
+msgstr "Livello di log per il file di log %s"
+
+msgid "Off"
+msgstr "Disattivato"
+
+msgid "Verbose"
+msgstr "Dettagliato"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Warning"
+msgstr "Avviso"
+
+msgid "Error"
+msgstr "Errore"
+
+#, c-format
+msgid "Notebook `%s` for import destination of Hotfolder %s doesn't exist use actual notebook for imports"
+msgstr "Il taccuino `%s` impostato come destinazione di importazione della cartella monitorata %s non esiste; verrà utilizzato il taccuino corrente"

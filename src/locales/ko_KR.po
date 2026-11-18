@@ -1,0 +1,104 @@
+# Korean translation for Joplin Plugin Hotfolder i18n
+msgid ""
+msgstr ""
+"Project-Id-Version: joplin-plugin-hotfolder-i18n\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Hotfolder i18n"
+msgstr "Hotfolder i18n"
+
+msgid "Hotfolder Path"
+msgstr "핫폴더 경로"
+
+msgid "Folder from which the files should be imported"
+msgstr "파일을 가져올 폴더"
+
+msgid "Ignore Files"
+msgstr "무시할 파일"
+
+msgid "Comma separated list of files which will be ignored"
+msgstr "무시할 파일 목록 (쉼표로 구분)"
+
+msgid "Add as text"
+msgstr "텍스트로 추가"
+
+msgid "Comma separated list of file extensions, which will be imported as text"
+msgstr "텍스트로 가져올 파일 확장자 목록 (쉼표로 구분)"
+
+msgid "Add text notes as Todo"
+msgstr "텍스트 노트를 할 일로 추가"
+
+msgid "Text only notes will be imported as Todo type notes, all other file types will be imported as attachments in regular notes"
+msgstr "텍스트 전용 노트는 할 일 유형으로 가져오고, 다른 모든 파일 형식은 일반 노트에 첨부 파일로 가져옵니다"
+
+msgid "Notebook"
+msgstr "노트북"
+
+msgid "If no notebook is specified, the import is made to the current notebook. Subnotebooks can be defined via Project\\Scans"
+msgstr "노트북을 지정하지 않으면 현재 노트북으로 가져옵니다. 하위 노트북은 Project\\Scans 형식으로 지정할 수 있습니다"
+
+msgid "Tags"
+msgstr "태그"
+
+msgid "Comma separated list of tags to be added to the note"
+msgstr "노트에 추가할 태그 목록 (쉼표로 구분)"
+
+msgid "File ready"
+msgstr "파일 준비 확인"
+
+msgid "Every how many seconds should be checked whether the file in the hotfolder is ready (Checks the file size and file lock additionally)"
+msgstr "핫폴더의 파일이 준비되었는지 몇 초마다 확인할지 지정합니다 (파일 크기와 파일 잠금도 추가로 확인합니다)"
+
+msgid "Polling"
+msgstr "폴링"
+
+msgid "May be necessary for Hotfolders in the network. Leads to a slightly higher system load"
+msgstr "네트워크상의 핫폴더에는 필요할 수 있습니다. 시스템 부하가 약간 증가합니다"
+
+msgid "Polling intervall"
+msgstr "폴링 간격"
+
+msgid "Interval in milliseconds for querying the hotfolder"
+msgstr "핫폴더를 조회하는 간격 (밀리초)"
+
+msgid "Depth"
+msgstr "깊이"
+
+msgid "How many subdirectories will be checked for file import"
+msgstr "파일을 가져올 때 확인할 하위 디렉터리 단계 수"
+
+msgid "Number of Hotfolders"
+msgstr "핫폴더 수"
+
+msgid "Additional Hotfolder Sections appear on the left (Please restart Joplin after a change)"
+msgstr "추가 핫폴더 섹션이 왼쪽에 표시됩니다 (변경 후 Joplin을 다시 시작하세요)"
+
+msgid "Loglevel"
+msgstr "로그 수준"
+
+#, c-format
+msgid "Log level for the log file %s"
+msgstr "로그 파일 %s의 로그 수준"
+
+msgid "Off"
+msgstr "끄기"
+
+msgid "Verbose"
+msgstr "상세"
+
+msgid "Info"
+msgstr "정보"
+
+msgid "Warning"
+msgstr "경고"
+
+msgid "Error"
+msgstr "오류"
+
+#, c-format
+msgid "Notebook `%s` for import destination of Hotfolder %s doesn't exist use actual notebook for imports"
+msgstr "가져오기 대상 노트북 `%s`(핫폴더 %s)이(가) 존재하지 않아 현재 노트북으로 가져옵니다"

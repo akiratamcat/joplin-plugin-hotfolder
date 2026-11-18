@@ -1,0 +1,104 @@
+# German translation for Joplin Plugin Hotfolder i18n
+msgid ""
+msgstr ""
+"Project-Id-Version: joplin-plugin-hotfolder-i18n\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Hotfolder i18n"
+msgstr "Hotfolder i18n"
+
+msgid "Hotfolder Path"
+msgstr "Hotfolder Pfad"
+
+msgid "Folder from which the files should be imported"
+msgstr "Ordner von welchem die Dateien importiert werden sollen"
+
+msgid "Ignore Files"
+msgstr "Dateien ignorieren"
+
+msgid "Comma separated list of files which will be ignored"
+msgstr "Durch Kommata getrennte Liste von Dateien welche ignoriert werden sollen"
+
+msgid "Add as text"
+msgstr "Als Text hinzufügen"
+
+msgid "Comma separated list of file extensions, which will be imported as text"
+msgstr "Durch Kommata getrennte Liste von Dateiendungen, welche als Text importiert werden sollen"
+
+msgid "Add text notes as Todo"
+msgstr "Text Notizen als ToDo erstellen"
+
+msgid "Text only notes will be imported as Todo type notes, all other file types will be imported as attachments in regular notes"
+msgstr "Text Notizen werden als Todo importiert, alle anderen Dateitypen werden als Anhänge in normale Notizen importiert"
+
+msgid "Notebook"
+msgstr "Notizbuch"
+
+msgid "If no notebook is specified, the import is made to the current notebook. Subnotebooks can be defined via Project\\Scans"
+msgstr "Wird kein Notizbuch angegeben, erfolgt der Import in das aktuelle Notizbuch. Unternotizbücher können über Project\\Scans definiert werden"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Comma separated list of tags to be added to the note"
+msgstr "Durch Kommata getrennte Liste der Tags, die der Notiz hinzugefügt werden sollen"
+
+msgid "File ready"
+msgstr "Datei fertig"
+
+msgid "Every how many seconds should be checked whether the file in the hotfolder is ready (Checks the file size and file lock additionally)"
+msgstr "All wieviel Sekunden soll geprüft werden ob die Datei im Hotfolder fertig ist (Prüft die Datei größe und Dateilock zusätzlich)"
+
+msgid "Polling"
+msgstr "Abfragen"
+
+msgid "May be necessary for Hotfolders in the network. Leads to a slightly higher system load"
+msgstr "Kann für Hotfolder im Netzwerk nötig sein. Führt zu einer etwas höheren Systemauslastung"
+
+msgid "Polling intervall"
+msgstr "Abfrage intervall"
+
+msgid "Interval in milliseconds for querying the hotfolder"
+msgstr "Intervall in millisekunden zur Abfrage des Hotfolders"
+
+msgid "Depth"
+msgstr "Tiefe"
+
+msgid "How many subdirectories will be checked for file import"
+msgstr "Wie viel Unterordner sollen für den datei Import geprüft werden"
+
+msgid "Number of Hotfolders"
+msgstr "Anzahl an Hotfolder"
+
+msgid "Additional Hotfolder Sections appear on the left (Please restart Joplin after a change)"
+msgstr "Zusätzliche Hotfolder erscheinen auf der linken Seite (Bitte starten Sie Joplin nach einer Änderung neu)"
+
+msgid "Loglevel"
+msgstr "Protokollierungsebene"
+
+#, c-format
+msgid "Log level for the log file %s"
+msgstr "Protokollierungsebene für die Logdatei %s"
+
+msgid "Off"
+msgstr "Aus"
+
+msgid "Verbose"
+msgstr "Ausführlich"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Warning"
+msgstr "Warnung"
+
+msgid "Error"
+msgstr "Fehler"
+
+#, c-format
+msgid "Notebook `%s` for import destination of Hotfolder %s doesn't exist use actual notebook for imports"
+msgstr "Das Notebook `%s` für das Importziel vom Hotfolder %s existiert nicht, das aktuelle Notizbuch wird genutzt"

@@ -1,0 +1,104 @@
+# French translation for Joplin Plugin Hotfolder i18n
+msgid ""
+msgstr ""
+"Project-Id-Version: joplin-plugin-hotfolder-i18n\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Hotfolder i18n"
+msgstr "Hotfolder i18n"
+
+msgid "Hotfolder Path"
+msgstr "Chemin du dossier surveillé"
+
+msgid "Folder from which the files should be imported"
+msgstr "Dossier à partir duquel les fichiers doivent être importés"
+
+msgid "Ignore Files"
+msgstr "Fichiers ignorés"
+
+msgid "Comma separated list of files which will be ignored"
+msgstr "Liste des fichiers à ignorer, séparés par des virgules"
+
+msgid "Add as text"
+msgstr "Ajouter en tant que texte"
+
+msgid "Comma separated list of file extensions, which will be imported as text"
+msgstr "Liste des extensions de fichiers à importer en tant que texte, séparées par des virgules"
+
+msgid "Add text notes as Todo"
+msgstr "Ajouter les notes texte en tant que tâches"
+
+msgid "Text only notes will be imported as Todo type notes, all other file types will be imported as attachments in regular notes"
+msgstr "Les notes contenant uniquement du texte seront importées en tant que tâches ; tous les autres types de fichiers seront importés en tant que pièces jointes dans des notes normales"
+
+msgid "Notebook"
+msgstr "Carnet"
+
+msgid "If no notebook is specified, the import is made to the current notebook. Subnotebooks can be defined via Project\\Scans"
+msgstr "Si aucun carnet n'est indiqué, l'importation se fait dans le carnet actuel. Les sous-carnets peuvent être définis sous la forme Project\\Scans"
+
+msgid "Tags"
+msgstr "Étiquettes"
+
+msgid "Comma separated list of tags to be added to the note"
+msgstr "Liste des étiquettes à ajouter à la note, séparées par des virgules"
+
+msgid "File ready"
+msgstr "Fichier prêt"
+
+msgid "Every how many seconds should be checked whether the file in the hotfolder is ready (Checks the file size and file lock additionally)"
+msgstr "Toutes les combien de secondes vérifier si le fichier du dossier surveillé est prêt (vérifie également la taille et le verrouillage du fichier)"
+
+msgid "Polling"
+msgstr "Interrogation périodique"
+
+msgid "May be necessary for Hotfolders in the network. Leads to a slightly higher system load"
+msgstr "Peut être nécessaire pour les dossiers surveillés sur le réseau. Entraîne une charge système légèrement plus élevée"
+
+msgid "Polling intervall"
+msgstr "Intervalle d'interrogation"
+
+msgid "Interval in milliseconds for querying the hotfolder"
+msgstr "Intervalle en millisecondes pour interroger le dossier surveillé"
+
+msgid "Depth"
+msgstr "Profondeur"
+
+msgid "How many subdirectories will be checked for file import"
+msgstr "Nombre de niveaux de sous-dossiers vérifiés pour l'importation de fichiers"
+
+msgid "Number of Hotfolders"
+msgstr "Nombre de dossiers surveillés"
+
+msgid "Additional Hotfolder Sections appear on the left (Please restart Joplin after a change)"
+msgstr "Les sections de dossiers surveillés supplémentaires apparaissent à gauche (veuillez redémarrer Joplin après une modification)"
+
+msgid "Loglevel"
+msgstr "Niveau de journalisation"
+
+#, c-format
+msgid "Log level for the log file %s"
+msgstr "Niveau de journalisation pour le fichier journal %s"
+
+msgid "Off"
+msgstr "Désactivé"
+
+msgid "Verbose"
+msgstr "Détaillé"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Warning"
+msgstr "Avertissement"
+
+msgid "Error"
+msgstr "Erreur"
+
+#, c-format
+msgid "Notebook `%s` for import destination of Hotfolder %s doesn't exist use actual notebook for imports"
+msgstr "Le carnet `%s` défini comme destination d'importation du dossier surveillé %s n'existe pas ; le carnet actuel est utilisé pour les importations"

@@ -1,0 +1,104 @@
+# Croatian translation for Joplin Plugin Hotfolder i18n
+msgid ""
+msgstr ""
+"Project-Id-Version: joplin-plugin-hotfolder-i18n\n"
+"Language: hr_HR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Hotfolder i18n"
+msgstr "Hotfolder i18n"
+
+msgid "Hotfolder Path"
+msgstr "Putanja Hotfolder mape"
+
+msgid "Folder from which the files should be imported"
+msgstr "Mapa iz koje se trebaju uvesti datoteke"
+
+msgid "Ignore Files"
+msgstr "Zanemari datoteke"
+
+msgid "Comma separated list of files which will be ignored"
+msgstr "Popis zarezom odvojenih datoteka koje će se zanemariti"
+
+msgid "Add as text"
+msgstr "Dodaj kao tekst"
+
+msgid "Comma separated list of file extensions, which will be imported as text"
+msgstr "Popis zarezom odvojenih sufiksa datoteka koje će se uvesti kao tekst"
+
+msgid "Add text notes as Todo"
+msgstr "Dodaj tekstualne bilješke kao „Zadatak”"
+
+msgid "Text only notes will be imported as Todo type notes, all other file types will be imported as attachments in regular notes"
+msgstr "Kao bilješke vrste „Zadatak” će se uvesti samo tekstualne bilješke, sve ostale vrste datoteka će se uvesti kao privici u redovnim bilješkama"
+
+msgid "Notebook"
+msgstr "Bilježnica"
+
+msgid "If no notebook is specified, the import is made to the current notebook. Subnotebooks can be defined via Project\\Scans"
+msgstr "Ako bilježnica nije navedena, uvoz se izvršava u trenutačnu bilježnicu. Podbilježnice se mogu definirati putem Project\\Scans"
+
+msgid "Tags"
+msgstr "Oznake"
+
+msgid "Comma separated list of tags to be added to the note"
+msgstr "Popis zarezom odvojenih oznaka koje će se dodati bilješci"
+
+msgid "File ready"
+msgstr "Datoteka spremna"
+
+msgid "Every how many seconds should be checked whether the file in the hotfolder is ready (Checks the file size and file lock additionally)"
+msgstr "Svakih koliko sekundi treba provjeriti je li datoteka u Hotfolder mapi spremna (dodatno provjerava veličinu datoteke i zaključavanje datoteke)"
+
+msgid "Polling"
+msgstr "Provjeravanje"
+
+msgid "May be necessary for Hotfolders in the network. Leads to a slightly higher system load"
+msgstr "Može biti potrebno za Hotfolder mape u mreži. Uzrokuje ponešto veće opterećenje sustava"
+
+msgid "Polling intervall"
+msgstr "Interval provjeravanja"
+
+msgid "Interval in milliseconds for querying the hotfolder"
+msgstr "Interval u milisekundama za provjeru Hotfolder mapa"
+
+msgid "Depth"
+msgstr "Dubina"
+
+msgid "How many subdirectories will be checked for file import"
+msgstr "Koliko poddirektorija će se provjeravati za uvoz datoteka"
+
+msgid "Number of Hotfolders"
+msgstr "Broj Hotfolder mapa"
+
+msgid "Additional Hotfolder Sections appear on the left (Please restart Joplin after a change)"
+msgstr "Dodatni odjeljci Hotfolder mapa pojavljuju se s lijeve strane (Ponovo pokreni Joplin nakon mijenjanja)"
+
+msgid "Loglevel"
+msgstr "Razina zapisivanja"
+
+#, c-format
+msgid "Log level for the log file %s"
+msgstr "Razina zapisivanja za datoteku dnevnika %s"
+
+msgid "Off"
+msgstr "Isključeno"
+
+msgid "Verbose"
+msgstr "Detaljno"
+
+msgid "Info"
+msgstr "Informacije"
+
+msgid "Warning"
+msgstr "Upozorenje"
+
+msgid "Error"
+msgstr "Greška"
+
+#, c-format
+msgid "Notebook `%s` for import destination of Hotfolder %s doesn't exist use actual notebook for imports"
+msgstr "Bilježnica `%s` za odredište uvoza Hotfolder mape %s ne postoji koristi trenutačnu bilježnicu za uvoz"

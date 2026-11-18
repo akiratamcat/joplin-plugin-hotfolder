@@ -1,5 +1,5 @@
 {
-  "name": "joplin-plugin-hotfolder",
+  "name": "joplin-plugin-hotfolder-i18n",
   "version": "1.2.3",
   "scripts": {
     "dist": "webpack --env joplin-plugin-config=buildMain && webpack --env joplin-plugin-config=buildExtraScripts && webpack --env joplin-plugin-config=createArchive",
@@ -10,6 +10,7 @@
     "gitRelease": "node ./node_modules/joplinplugindevtools/dist/createRelease.js --upload",
     "gitPreRelease": "node ./node_modules/joplinplugindevtools/dist/createRelease.js --upload --prerelease",
     "test": "jest",
+    "i18n:extract": "node scripts/i18n-extract.js",
     "updateVersion": "webpack --env joplin-plugin-config=updateVersion"
   },
   "license": "MIT",
@@ -45,8 +46,7 @@
   "dependencies": {
     "chokidar": "^3.6.0",
     "electron-log": "^4.3.1",
-    "file-type": "^16.2.0",
-    "i18n": "^0.15.1"
+    "file-type": "^16.2.0"
   },
   "browser": {
     "fs": false

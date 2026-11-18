@@ -5,13 +5,11 @@ import * as path from "path";
 import * as fileType from "file-type";
 import { helper } from "./helper";
 import { settings } from "./settings";
-import { I18n } from "i18n";
+import { _, setupI18n } from "./i18n";
 import hotfolderLogging from "electron-log";
 import { hotfolderSettings, processFile } from "./type";
 
 const fs = require("fs-extra");
-
-let i18n: any;
 
 class Hotfolder {
   private log: any;
@@ -98,20 +96,10 @@ class Hotfolder {
   private async confLocale(localesDir: string) {
     this.log.verbose("Conf translation");
     const joplinLocale = await joplin.settings.globalValue("locale");
-    i18n = new I18n({
-      locales: ["en_US", "de_DE"],
-      defaultLocale: "en_US",
-      fallbacks: { "en_*": "en_US" },
-      updateFiles: false,
-      retryInDefaultLocale: true,
-      syncFiles: false,
-      directory: localesDir,
-      objectNotation: true,
-    });
-    i18n.setLocale(joplinLocale);
+    const activeLocale = setupI18n(localesDir, joplinLocale);
     this.log.verbose("localesDir: " + localesDir);
     this.log.verbose("JoplinLocale: " + joplinLocale);
-    this.log.verbose("i18nLocale: " + i18n.getLocale());
+    this.log.verbose("i18nLocale: " + activeLocale);
   }
 
   private async registerSettings() {
@@ -239,8 +227,8 @@ class Hotfolder {
         ) {
           this.log.error("Notebook: " + importNotebook + " dose not exist");
           await this.showMsg(
-            i18n.__(
-              "msg.error.notebookNotExist",
+            _(
+              "Notebook `%s` for import destination of Hotfolder %s doesn't exist use actual notebook for imports",
               importNotebook.trim(),
               hotfolderNr == 0 ? "" : hotfolderNr + 1
             )
@@ -351,8 +339,8 @@ class Hotfolder {
       )) === false
     ) {
       this.showMsg(
-        i18n.__(
-          "msg.error.notebookNotExist",
+        _(
+          "Notebook `%s` for import destination of Hotfolder %s doesn't exist use actual notebook for imports",
           hotfolderSettings.importNotebook.trim(),
           processFile.hotfolderNr == 0 ? "" : processFile.hotfolderNr + 1
         )
@@ -461,4 +449,4 @@ class Hotfolder {
   }
 }
 
-export { Hotfolder, i18n };
+export { Hotfolder };

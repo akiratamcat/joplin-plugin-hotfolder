@@ -1,0 +1,104 @@
+# Dutch translation for Joplin Plugin Hotfolder i18n
+msgid ""
+msgstr ""
+"Project-Id-Version: joplin-plugin-hotfolder-i18n\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Hotfolder i18n"
+msgstr "Hotfolder i18n"
+
+msgid "Hotfolder Path"
+msgstr "Pad van de hotfolder"
+
+msgid "Folder from which the files should be imported"
+msgstr "Map waaruit de bestanden geïmporteerd moeten worden"
+
+msgid "Ignore Files"
+msgstr "Bestanden negeren"
+
+msgid "Comma separated list of files which will be ignored"
+msgstr "Door komma's gescheiden lijst van bestanden die genegeerd worden"
+
+msgid "Add as text"
+msgstr "Als tekst toevoegen"
+
+msgid "Comma separated list of file extensions, which will be imported as text"
+msgstr "Door komma's gescheiden lijst van bestandsextensies die als tekst geïmporteerd worden"
+
+msgid "Add text notes as Todo"
+msgstr "Tekstnotities als taak toevoegen"
+
+msgid "Text only notes will be imported as Todo type notes, all other file types will be imported as attachments in regular notes"
+msgstr "Notities met alleen tekst worden als taak geïmporteerd; alle andere bestandstypen worden als bijlage in gewone notities geïmporteerd"
+
+msgid "Notebook"
+msgstr "Notitieboek"
+
+msgid "If no notebook is specified, the import is made to the current notebook. Subnotebooks can be defined via Project\\Scans"
+msgstr "Als er geen notitieboek is opgegeven, wordt in het huidige notitieboek geïmporteerd. Subnotitieboeken kunnen worden opgegeven als Project\\Scans"
+
+msgid "Tags"
+msgstr "Labels"
+
+msgid "Comma separated list of tags to be added to the note"
+msgstr "Door komma's gescheiden lijst van labels die aan de notitie worden toegevoegd"
+
+msgid "File ready"
+msgstr "Bestand gereed"
+
+msgid "Every how many seconds should be checked whether the file in the hotfolder is ready (Checks the file size and file lock additionally)"
+msgstr "Om de hoeveel seconden gecontroleerd wordt of het bestand in de hotfolder gereed is (controleert ook de bestandsgrootte en bestandsvergrendeling)"
+
+msgid "Polling"
+msgstr "Polling"
+
+msgid "May be necessary for Hotfolders in the network. Leads to a slightly higher system load"
+msgstr "Kan nodig zijn voor hotfolders op het netwerk. Leidt tot een iets hogere systeembelasting"
+
+msgid "Polling intervall"
+msgstr "Polling-interval"
+
+msgid "Interval in milliseconds for querying the hotfolder"
+msgstr "Interval in milliseconden voor het controleren van de hotfolder"
+
+msgid "Depth"
+msgstr "Diepte"
+
+msgid "How many subdirectories will be checked for file import"
+msgstr "Hoeveel niveaus van submappen gecontroleerd worden voor het importeren van bestanden"
+
+msgid "Number of Hotfolders"
+msgstr "Aantal hotfolders"
+
+msgid "Additional Hotfolder Sections appear on the left (Please restart Joplin after a change)"
+msgstr "Extra hotfolder-secties verschijnen aan de linkerkant (start Joplin opnieuw na een wijziging)"
+
+msgid "Loglevel"
+msgstr "Logniveau"
+
+#, c-format
+msgid "Log level for the log file %s"
+msgstr "Logniveau voor het logbestand %s"
+
+msgid "Off"
+msgstr "Uit"
+
+msgid "Verbose"
+msgstr "Uitgebreid"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Warning"
+msgstr "Waarschuwing"
+
+msgid "Error"
+msgstr "Fout"
+
+#, c-format
+msgid "Notebook `%s` for import destination of Hotfolder %s doesn't exist use actual notebook for imports"
+msgstr "Notitieboek `%s` als importbestemming van hotfolder %s bestaat niet; het huidige notitieboek wordt gebruikt voor imports"

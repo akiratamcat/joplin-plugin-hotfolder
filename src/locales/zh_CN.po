@@ -1,0 +1,104 @@
+# Chinese (Simplified) translation for Joplin Plugin Hotfolder i18n
+msgid ""
+msgstr ""
+"Project-Id-Version: joplin-plugin-hotfolder-i18n\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Hotfolder i18n"
+msgstr "Hotfolder i18n"
+
+msgid "Hotfolder Path"
+msgstr "热文件夹路径"
+
+msgid "Folder from which the files should be imported"
+msgstr "要导入文件的来源文件夹"
+
+msgid "Ignore Files"
+msgstr "忽略的文件"
+
+msgid "Comma separated list of files which will be ignored"
+msgstr "要忽略的文件列表（以逗号分隔）"
+
+msgid "Add as text"
+msgstr "作为文本添加"
+
+msgid "Comma separated list of file extensions, which will be imported as text"
+msgstr "作为文本导入的文件扩展名列表（以逗号分隔）"
+
+msgid "Add text notes as Todo"
+msgstr "将文本笔记添加为待办事项"
+
+msgid "Text only notes will be imported as Todo type notes, all other file types will be imported as attachments in regular notes"
+msgstr "纯文本笔记将作为待办事项导入，其他所有文件类型将作为附件导入到普通笔记中"
+
+msgid "Notebook"
+msgstr "笔记本"
+
+msgid "If no notebook is specified, the import is made to the current notebook. Subnotebooks can be defined via Project\\Scans"
+msgstr "如果未指定笔记本，则导入到当前笔记本。可以使用 Project\\Scans 的形式指定子笔记本"
+
+msgid "Tags"
+msgstr "标签"
+
+msgid "Comma separated list of tags to be added to the note"
+msgstr "要添加到笔记的标签列表（以逗号分隔）"
+
+msgid "File ready"
+msgstr "文件就绪"
+
+msgid "Every how many seconds should be checked whether the file in the hotfolder is ready (Checks the file size and file lock additionally)"
+msgstr "每隔多少秒检查一次热文件夹中的文件是否就绪（同时检查文件大小和文件锁定）"
+
+msgid "Polling"
+msgstr "轮询"
+
+msgid "May be necessary for Hotfolders in the network. Leads to a slightly higher system load"
+msgstr "对于网络上的热文件夹可能需要启用。会略微增加系统负载"
+
+msgid "Polling intervall"
+msgstr "轮询间隔"
+
+msgid "Interval in milliseconds for querying the hotfolder"
+msgstr "查询热文件夹的间隔（毫秒）"
+
+msgid "Depth"
+msgstr "深度"
+
+msgid "How many subdirectories will be checked for file import"
+msgstr "导入文件时检查的子目录层数"
+
+msgid "Number of Hotfolders"
+msgstr "热文件夹数量"
+
+msgid "Additional Hotfolder Sections appear on the left (Please restart Joplin after a change)"
+msgstr "额外的热文件夹设置分区将显示在左侧（更改后请重新启动 Joplin）"
+
+msgid "Loglevel"
+msgstr "日志级别"
+
+#, c-format
+msgid "Log level for the log file %s"
+msgstr "日志文件 %s 的日志级别"
+
+msgid "Off"
+msgstr "关闭"
+
+msgid "Verbose"
+msgstr "详细"
+
+msgid "Info"
+msgstr "信息"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "Error"
+msgstr "错误"
+
+#, c-format
+msgid "Notebook `%s` for import destination of Hotfolder %s doesn't exist use actual notebook for imports"
+msgstr "导入目标笔记本 `%s`（热文件夹 %s）不存在，将使用当前笔记本进行导入"
